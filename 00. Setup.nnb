@@ -1,0 +1,85 @@
+{
+    "cells": [
+        {
+            "language": "markdown",
+            "source": [
+                "# Javascript Node JS Notebooks\n\nInstall VS Code extension: Node.js Notebooks\n\nhttps://marketplace.visualstudio.com/items?itemName=donjayamanne.typescript-notebook\n\nnext code should be able to run:"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "javascript",
+            "source": [
+                "var test = \"test\";\n\nfunction add(x, y) {\n  return x + y;\n}\n\nadd(1, 2);\n"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "\u001b[33m3\u001b[39m"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "javascript",
+            "source": [
+                "console.log('test')"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "test",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "javascript",
+            "source": [
+                "class Test {\n  add(x, y) {\n    return x + y;\n  }\n}\n\nconst t = new Test();\n\nt.add(3, 4);\n"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "\u001b[33m7\u001b[39m"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "console.log('Typescript')"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "Typescript",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
